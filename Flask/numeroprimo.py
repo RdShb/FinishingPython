@@ -7,5 +7,5 @@ def numeroprimo(n):
             return "No es primo!"
     return "Es primo"
 if __name__ == "__main__":
-    n = int(input("Ingrese un numero: "))
+    n = int(input("Ingrese un número: "))
     numeroprimo(n)

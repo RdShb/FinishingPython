@@ -19,7 +19,7 @@ def index():
     </head>
     <body>
         <h1>Menu</h1>
-        <label for="numero">Elegir la pagina a la que desea ir:</label>
+        <label for="numero">Elige la pagina a la que quieras ir:</label>
         <form method="get" action="/dni">
             <input type="submit" value="DNI">
         </form>
@@ -27,16 +27,16 @@ def index():
             <input type="submit" value="Positivo o Negativo">
         </form>
         <form method="get" action="/areacubo">
-            <input type="submit" value="Area y Volumen del Cubo">
+            <input type="submit" value="Área y Volumen del Cubo">
         </form>
         <form method="get" action="/numeroprimo">
-            <input type="submit" value="Comprobar Numero Primo">
+            <input type="submit" value="Comprobar Número Primo">
         </form>
         <form method="get" action="/anagrama">
             <input type="submit" value="Anagramas">
         </form>
         <form method="get" action="/capicua">
-            <input type="submit" value="Capicua">
+            <input type="submit" value="Capicúa">
         </form>
     </body>
     </html>
@@ -78,7 +78,7 @@ def validar():
         <title>Validar DNI</title>
     </head>
     <body>
-        <h1>Validacion realizada</h1>
+        <h1>Validación realizada</h1>
         <p>{resultado}</p>
     </body>
     </html>
@@ -115,7 +115,7 @@ def positoneg():
         <title>Positivo o Negativo</title>
     </head>
     <body>
-        <h1>Validacion realizada</h1>
+        <h1>Validación realizada</h1>
         <p>{resultado}</p>
     </body>
     </html>
@@ -128,10 +128,10 @@ def areacubo():
    <!DOCTYPE html>
     <html>
     <head>
-        <title>Calcular Area y Volumen del Cubo</title>
+        <title>Calcular Área y Volumen del Cubo</title>
     </head>
     <body>
-        <h1>Calcular Area y Volumen del Cubo</h1>
+        <h1>Calcular Área y Volumen del Cubo</h1>
         <form method="POST" action="/cubo"> 
             <label for="lado">Tamaño del lado: </label>
             <input type="number" name="ladocubo" id="ladocubo">
@@ -153,7 +153,7 @@ def cbo():
         <title>Cubo</title>
     </head>
     <body>
-        <h1>Validacion realizada</h1>
+        <h1>Validación realizada</h1>
         <p>{resultado}</p>
     </body>
     </html>
@@ -166,10 +166,10 @@ def numprim():
    <!DOCTYPE html>
     <html>
     <head>
-        <title>Calculo Numero Primo</title>
+        <title>Cálculo Número Primo</title>
     </head>
     <body>
-        <h1>Calculo Numero Primo</h1>
+        <h1>Cálculo Número Primo</h1>
         <form method="POST" action="/valnumeroprimo">
             <label for="numero">Número:</label>
             <input type="number" name="numero" id="numero">
@@ -188,10 +188,10 @@ def valnumprim():
    <!DOCTYPE html>
     <html>
     <head>
-        <title>Numero Primo</title>
+        <title>Número Primo</title>
     </head>
     <body>
-        <h1>Validacion realizada</h1>
+        <h1>Validación realizada</h1>
         <p>{resultado}</p>
     </body>
     </html>
@@ -209,10 +209,10 @@ def anag():
     <body>
         <h1>Anagramas</h1>
         <form method="POST" action="/valanagrama">
-            <label for="texto">Escriba una palabra : </label>
+            <label for="texto">Escriba una palabra: </label>
             <input type="texto" name="palabra1" id="palabra1">
             <br>
-            <label for="texto">Escriba otra palabra : </label>
+            <label for="texto">Escriba otra palabra: </label>
             <input type="texto" name="palabra2" id="palabra2">
             <br>
             <input type="submit" value="Entrar">
@@ -233,7 +233,7 @@ def valanagrama():
         <title>Anagramas</title>
     </head>
     <body>
-        <h1>Validacion realizada</h1>
+        <h1>Validación realizada</h1>
         <p>{resultado}</p>
     </body>
     </html>
@@ -246,12 +246,12 @@ def capi():
    <!DOCTYPE html>
     <html>
     <head>
-        <title>Capicua</title>
+        <title>Capicúa</title>
     </head>
     <body>
-        <h1>Capicua</h1>
+        <h1>Capicúa</h1>
         <form method="POST" action="/valcapicua">
-            <label for="number">Escriba un numero: </label>
+            <label for="number">Escriba un número: </label>
             <input type="number" name="numero1" id="numero1">
             <br>
             <input type="submit" value="Entrar">
@@ -268,10 +268,10 @@ def valcapicua():
    <!DOCTYPE html>
     <html>
     <head>
-        <title>Capicua</title>
+        <title>Capicúa</title>
     </head>
     <body>
-        <h1>Validacion realizada</h1>
+        <h1>Validación realizada</h1>
         <p>{resultado}</p>
     </body>
     </html>

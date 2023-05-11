@@ -6,7 +6,7 @@ def LetraDNI(numero,letra):
     if len(str(numero)) == 8 and str(numero).isnumeric():
         resto = int(numero) % 23
         if letra == letraDNI[resto]:
-            return f"La letra del DNI introducido es: {letraDNI[resto]}, es un DNI Válido"
+            return f"La letra del DNI introducido es: {letraDNI[resto]}, es un DNI válido"
         else:
             return f"la letra {letra} no corresponde al dni: {numero}"
     #    choose = input("Quieres buscar otra letra del DNI 'si' o 'no': ")
@@ -16,6 +16,6 @@ def LetraDNI(numero,letra):
     #print("¡Hasta luego!")
 
 if __name__ == "__main__":
-    numero=input("Entre el número del DNI:")
-    letra =input("Entre la letra del DNI:")
+    numero=input("Introduce el número del DNI:")
+    letra =input("Introduce la letra del DNI:")
     LetraDNI()

@@ -7,5 +7,5 @@ def posneg(n):
     else:
         return "Es 0"
 if __name__ == "__main__":
-    n=input("Escriba un numero:")
+    n=input("Escriba un número:")
     posneg(n)

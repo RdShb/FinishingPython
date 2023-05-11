@@ -5,9 +5,9 @@ def capicua(n):
     for i in reversed(num):
         numinv.append(i)
     if num == numinv:
-        return "El numero es capicua!"
+        return "El número es capicua!"
     else:
-        return "El numero no es capicua"
+        return "El número no es capicua"
 if __name__ == "__main__":
     n=input("Escriba un numero:")
     capicua(n)
